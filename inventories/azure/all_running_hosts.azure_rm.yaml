@@ -9,6 +9,6 @@ keyed_groups:
 - prefix: azure_location
   key: location
 hostvar_expressions:
-  ansible_host: private_ipv4_addresses | first
+  ansible_host: private_ipv4_addresses
 conditional_groups:
   all_hosts_group: true
