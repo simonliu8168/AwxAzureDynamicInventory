@@ -1,4 +1,4 @@
 plugin: azure_rm
 include_vm_resource_groups:
-  - prio-dev-rgp
+  - infra-dev-och
 auth_source: auto
