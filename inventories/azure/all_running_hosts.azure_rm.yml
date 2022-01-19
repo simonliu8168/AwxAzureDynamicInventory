@@ -1,7 +1,0 @@
-plugin: azure_rm
-auth_source: env
-plain_host_names: yes
-hostvar_expressions:
-  ansible_host: private_ipv4_addresses | first
-conditional_groups:
-  all_hosts_group: true
