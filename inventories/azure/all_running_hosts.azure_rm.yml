@@ -1,2 +1,4 @@
 plugin: azure_rm
+include_vm_resource_groups:
+  - prio-dev-rgp
 auth_source: auto
